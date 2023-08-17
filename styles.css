@@ -14,7 +14,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 2px;
     margin-left: 220px;
     font-family: Arial, sans-serif;
     text-decoration: none;
@@ -37,22 +37,22 @@ body{
    .search-box {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     padding: 5px;
     width: 250px;
     box-sizing: border-box;
 }
 
+
 .search-box input {
     flex: 1;
     border: none;
     outline: none;
+    font-weight: bold;
+    color: dark rgb(92, 92, 92);
 }
 
-.divider {
-    margin: 0 10px;
-    color: #333;
-}
+
 
 .search-box img{
 
@@ -65,11 +65,9 @@ height: auto;
   .divider {
     
       border: none;
-      border-top: 1px solid gray; /* Adjust the color and thickness as needed */
-      margin: 0;
-      margin-left: 0; /* Reset the left margin */
-      margin-right: 0; /* Reset the right margin */
+      border-top: 1px solid rgb(240, 239, 239);
       width: 168%;
+      
      
   }
 
@@ -91,8 +89,13 @@ height: auto;
     color: #5b6770;
     font-style: bold;
     white-space: nowrap;
+    
 
+
+    
   }
+
+
 
   .menu img {
 
@@ -134,7 +137,7 @@ height: auto;
 
 
   .red-banner {
-    background: linear-gradient(to right, #812929, #9e24249d); /* Red gradient background */
+    background: linear-gradient(to right, #812929, #9e24249d); 
     color: white;
     text-align: center;
     padding: 19px;
@@ -180,4 +183,197 @@ height: auto;
   font-size: 16px;
   cursor: pointer;
   
+}
+
+.menu-images{
+    display: flex;
+    margin-left: 230px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+
+.menu-image-item{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.menu-image-item img{  
+  margin-right: 20px;
+}
+
+.menu-image-item p {
+  margin-top: 5px; 
+  text-align: center;
+  font-size: 14px;
+ 
+}
+
+
+.fright-delight-alt {
+  display: flex;
+  align-items: center; 
+  margin-left: 230px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.alt-pic img {
+  max-width: 100%;
+  height: auto;
+}
+
+.shop-info {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.shop-text p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.big-bold-text {
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.gradient-red {
+  background-image: linear-gradient(45deg, #ff4d4d, #ff3399); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gradient-yellow {
+  background-image: linear-gradient(45deg, #ffd700, #ffcc00); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.shop-buttons button {
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.autumn-images{
+
+  display: flex;
+    margin-left: 230px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+.autumn-image-item{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.autumn-image-item img{
+
+  margin-right: 20px;
+  width: 300px;
+  height: 380px;
+}
+
+.autumn-image-item button {
+  margin-top: 5px; 
+  text-align: center;
+  font-size: 14px;
+ 
+}
+
+
+.recommended-images{
+
+  display: flex;
+    margin-left: 230px;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+
+.recommended-image-item{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.recommended-image-item img{
+
+  margin-right: 20px;
+}
+
+.recommended-image-item p {
+  margin-top: 5px; 
+  text-align: center;
+  font-size: 14px;
+ 
+}
+
+.bottom-red-banner {
+  background: linear-gradient(to right, #812929, #9e24249d); 
+  text-align: center;
+  padding: 19px;
+  width: 165%;
+  white-space: nowrap;
+}
+
+.section-columns {
+  display: flex;
+  margin-left: 230px;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.column h2 {
+  font-weight: bold;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 5px;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.footer-left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-left p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-right p {
+  color: #888;
 }
